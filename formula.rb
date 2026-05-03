@@ -1,4 +1,4 @@
-class CryptoKitCLI < Formula
+class CryptoKitcli < Formula
   desc "CryptoKitCLI"
   homepage "https://github.com/alexruperez/CryptoKitCLI"
   url "https://github.com/alexruperez/CryptoKitCLI/archive/0.1.0.tar.gz"
