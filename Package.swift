@@ -32,7 +32,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "CryptoKitCLI",
+            name: "CryptoKit",
             dependencies: [
                 .product(name: "ArgumentParser",
                          package: "swift-argument-parser"),
@@ -44,7 +44,7 @@ let package = Package(
         ),
         .testTarget(
             name: "CryptoKitCLITests",
-            dependencies: ["CryptoKitCLI"]
+            dependencies: ["CryptoKit"]
         )
     ]
 )
