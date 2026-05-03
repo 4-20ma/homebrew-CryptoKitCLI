@@ -8,6 +8,6 @@ class Cryptokit < Formula
   depends_on xcode: ["11.4", :build]
 
   def install
-    system "make", "install", "PREFIX=#{prefix}", "TOOL_NAME=CryptoKit"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 end
